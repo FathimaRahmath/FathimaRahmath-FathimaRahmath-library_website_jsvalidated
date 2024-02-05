@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="../style.css">
+    
+    <link rel="stylesheet" href="./Style/about-us.css"> -->
+    
+   
+    <link rel="stylesheet" href="../Style/signup.css">
+   
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="login.html">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input  id="name" name="name" type="text" placeholder="Enter your name" required>
+                        <span id="err"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input id="username" name="username" type="text" placeholder="Enter your username" required>
+                        <span id="err1"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input id="email" name="email" type="text" placeholder="Enter your email" required>
+                        <span id="err2"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input id="phone" name="phone" type="text" placeholder="Enter your number" required>
+                        <span id="err3"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input id="pass" name="password" type="password" placeholder="Enter your password" required>
+                        <span id="err4"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input id="conpass" name="conpass" type="password" placeholder="Confirm your password" required>
+                        <span id="err5"></span>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input onclick="return validate()" type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../Script/signup.js"></script>
+</body>
+</html>
